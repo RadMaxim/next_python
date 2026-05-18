@@ -1,3 +1,4 @@
+import { InputGroupInput, InputGroupText } from "@/shared/ui/input-group"
 import {
   SidebarInset,
   SidebarProvider,
@@ -20,6 +21,8 @@ export default function HomePage() {
 
         <main className="mx-auto max-w-7xl flex-1 px-6 py-10">
           <ImagePreview />
+          <div><InputGroupText title="X:">X:</InputGroupText><InputGroupInput/>
+          <InputGroupText title="Y:">Y:</InputGroupText><InputGroupInput/></div>
         </main>
 
         <Footer/>
