@@ -13,22 +13,24 @@
     "isolatedModules": true,
     "jsx": "react-jsx",
     "incremental": true,
+ 
+
     "plugins": [
       {
         "name": "next"
       }
     ],
     "paths": {
-      "@/*": ["./*"],
+  "@/*": ["./*"],
 
-      "@app/*": ["app/*"],
-      "@shared/*": ["shared/*"],
-      "@entities/*": ["entities/*"],
-      "@features/*": ["features/*"],
-      "@widgets/*": ["widgets/*"],
-      "@processes/*": ["processes/*"],
-      "@pages/*": ["pages/*"]
-    }
+  "@app/*": ["./app/*"],
+  "@shared/*": ["./shared/*"],
+  "@entities/*": ["./entities/*"],
+  "@features/*": ["./features/*"],
+  "@widgets/*": ["./widgets/*"],
+  "@processes/*": ["./processes/*"],
+  "@pages/*": ["./pages/*"]
+}
   },
   "include": [
     "next-env.d.ts",
